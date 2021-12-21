@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="id.ac.ukdw.fti.rpl.kelompokHIJ.FXMLController">
+   <children>
+      <TableView fx:id="tableVerses" layoutX="5.0" layoutY="192.0" prefHeight="390.0" prefWidth="918.0">
+        <columns>
+          <TableColumn fx:id="verseIdColumn" prefWidth="104.79995441436768" text="verseID" />
+          <TableColumn fx:id="verseColumn" prefWidth="112.00006866455078" text="Ayat" />
+            <TableColumn fx:id="eventsColumn" prefWidth="132.7999267578125" text="Events" />
+            <TableColumn fx:id="versePeriodsColumn" prefWidth="188.79995727539062" text="Periode" />
+            <TableColumn fx:id="verseTextColumn" prefWidth="376.800048828125" text="Teks" />
+        </columns>
+      </TableView>
+      <Text layoutX="419.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EASY BIBLE" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="searchButton" layoutX="430.0" layoutY="110.0" mnemonicParsing="false" onAction="#moveToSearchMenu" text="Pencarian" />
+   </children>
+</AnchorPane>
