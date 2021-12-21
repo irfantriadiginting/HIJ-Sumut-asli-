@@ -43,6 +43,12 @@ public class SearchController implements Initializable {
 
     @FXML
     private Button periodsSearchButton;
+    @FXML
+    void buttonSearch(ActionEvent event) {
+
+    }
+
+   
 
     // @FXML
     // void buttonSearch(ActionEvent event){
